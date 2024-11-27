@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://brave-sky-0def5f01e.5.azurestaticapps.net/JHAppsRestaurant_x64.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2018">
+	<MainPackage
+		Name="JHAppsRestaurant"
+		Version="1.0.0.0"
+		Publisher="CN=JHApps"
+		Uri="https://brave-sky-0def5f01e.5.azurestaticapps.net/JHAppsRestaurant_1.0.0.0_x64_Debug_Test/JHAppsRestaurant_1.0.0.0_x64_Debug.msix"
+		ProcessorArchitecture="x64" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0"
+			ShowPrompt="true"
+			UpdateBlocksActivation="false" />
+		<AutomaticBackgroundTask />
+	</UpdateSettings>
+</AppInstaller>
